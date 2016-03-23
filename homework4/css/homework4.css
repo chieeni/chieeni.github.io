@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0 auto;
     font-family: arial;
+    min-width: 400px;
 }
 
 .container {
@@ -67,17 +68,18 @@ body {
 
 header {
     top: 60px;
-    padding: 80px;
+    padding: 5%;
     background-color: #27D8AF;
     position: relative;
+    left: 0;
     text-align: center;
     color: white;
 }
 
 #bigword {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 0.5vw;
 }
 
 
@@ -86,7 +88,7 @@ header {
 #portfolio {
     position: relative;
     top: 10px;
-    padding: 80px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -97,7 +99,7 @@ header {
 }
 
 #portfolio img {
-    width: 90%;
+    width: 95%;
     padding: 10px;
 }
 
