@@ -1,7 +1,7 @@
 body {
-    margin-top: 20px;
     width: 100%;
     margin: 0 auto;
+    font-family: arial;
 }
 
 .container {
@@ -9,21 +9,33 @@ body {
     margin: 0 auto;
 }
 
+
+/*navbar*/
+
 .nav {
     background-color: #273242;
-    padding: 15px;
     width: 100%;
-    height: 80px;
+    height: 90px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
 
+.nav ul {
+    padding: 20px 40px;
+}
+
+.nav li {
+    display: inline;
+    padding: 15px;
+    list-style: none;
+}
+
 .nav a {
     color: white;
     font-weight: bold;
-    padding: 15px;
+    font-family: arial;
     text-decoration: none;
 }
 
@@ -31,44 +43,49 @@ body {
     color: #23C4A3;
 }
 
-#home {
-    font-size: 25px;
+#logo {
+    font-size: 28px;
+    text-align: left;
+    float: left;
 }
 
-#home a:hover {
+#logo a:hover {
     -o-transition: color .20s linear;
     -webkit-transition: color .20s linear;
     -moz-transition: color .20s linear;
     transition: color .20s linear;
 }
 
-.nav li {
-    display: inline;
+#navbt {
+    font-size: 15px;
+    text-align: right;
+    float: right;
 }
 
-#navbt {
-    padding: 8px;
-}
+
+/*header*/
 
 header {
     top: 60px;
     padding: 80px;
     background-color: #27D8AF;
     position: relative;
-    width: 100%;
     text-align: center;
     color: white;
 }
 
 #bigword {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
+    line-height: 10px;
 }
+
+
+/*Portfilio*/
 
 #portfolio {
     position: relative;
-    top: 30px;
-    width: 100%;
+    top: 10px;
     padding: 80px;
     text-align: center;
 }
@@ -76,26 +93,32 @@ header {
 .midword {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 #portfolio img {
-    width: 100%;
-    padding: 5%;
+    width: 90%;
+    padding: 10px;
 }
 
+
+/*ABOUT*/
+
 #about {
+    position: relative;
+    top: 80px;
     background-color: #27D8AF;
-    width: 100%;
-    padding: 80px;
     text-align: center;
+    clear: both;
+    padding: 50px 80px;
 }
 
 .aboutword {
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     padding: 10px;
+    line-height: 30px;
 }
 
 #bt01 {
@@ -116,10 +139,21 @@ header {
     background-color: white;
 }
 
-#contactme {
-    width: 100%;
-    padding: 80px;
+.downloadbt {
+    clear: both;
     text-align: center;
+    margin: 0 auto;
+}
+
+
+/*Contactme*/
+
+#contactme {
+    text-align: center;
+    position: relative;
+    clear: both;
+    top: 80px;
+    padding: 50px 80px;
 }
 
 input {
@@ -151,12 +185,27 @@ textarea {
     background-color: #20B695;
 }
 
-.upfoot {
-    width: 100%;
+.afterfildin {
+    clear: both;
+    height: 70px;
+}
+
+
+/*footer*/
+
+footer {
     background-color: #273242;
-    padding: 80px;
+    clear: both;
+    position: relative;
+    top: 50px;
+}
+
+.upfoot {
+    background-color: #273242;
     text-align: center;
     color: white;
+    position: relative;
+    padding: 50px 80px 250px 50px;
 }
 
 .foottitle {
@@ -168,13 +217,44 @@ textarea {
 
 #startbootstrap {
     color: #27D8AF;
+    text-decoration: none;
+}
+
+#startbootstrap:hover {
+    text-decoration: underline;
+}
+
+.circlebt {
+    width: 50px;
+    height: 50px;
+    line-height: 43px;
+    border: 2px solid white;
+    background-color: #273242;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.circlebt:hover {
+    background-color: white;
+    color: #27D8AF;
 }
 
 .downfoot {
     background-color: #122030;
-    width: 100%;
-    padding: 30px;
+    padding: 10px 30px;
     text-align: center;
-    bottom: 0;
     color: white;
+    position: relative;
+    bottom: 0;
+    clear: both;
+}
+
+
+/*star*/
+
+.fa-star {
+    font-size: 30px;
 }
