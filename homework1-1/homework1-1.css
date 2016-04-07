@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    background-color: #4C5049;
+}
+
+.all {
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    line-height: 30px;
+}
+
+#eat {
+    padding: 30px 0 30px 0;
+    background-color: #F0E4E0;
+    position: relative;
+    top: 0;
+    width: 900px;
+}
+
+h1 {
+    color: #B72717;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+h3 {
+    color: #676261;
+}
+
+#WhatWeEat {
+    padding: 30px 0 30px 0;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    padding: 20px;
+}
+
+#Info {
+    padding: 30px 0 30px 0;
+    background-color: #B72717;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+#Info a {
+    color: white;
+    text-decoration: none;
+}
+
+#Info a:hover {
+    text-decoration: underline;
+}
+
+#back {
+    float: right;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    top: 500px;
+    right: 30px;
+    position: fixed;
+}
+
+#back1 {
+    background-color: #E67C6F;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 10px;
+}
+
+#Infobt {
+    float: right;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    top: 420px;
+    right: 30px;
+    position: fixed;
+}
+
+#Infobt1 {
+    background-color: #E2A83F;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 10px;
+}

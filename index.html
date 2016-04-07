@@ -1,21 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Hello :)</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="NTU CSIE Information System Training Course">
+    <meta name="keywords" content="Keyword 1,Keyword 2">
+    <meta name="description" content="description">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/indexgrid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Hey! That's Learn HTML and CSS!</title>
 </head>
 
 <body>
-    <h1>Hello :)</h1>
-    <p>Welcome to my website!</p>
-    <h3>Homeworks</h3>
-    <ul>
-        <li><a href="homework1/homework1.html">Homework 01 - 食記</a></li>
-        <li><a href="homework2/homework2.html">Homework 02 - 履歷</a></li>
-        <li><a href="#">Homework 03 - fload作業（還沒做） </a></li>
-        <li><a href="homework4/homework4.html">Homework 04 - START BOOTSTRAP</a></li>
-    </ul>
+    <!--header-->
+    <header>
+        <div class="container">
+            <nav class="topnav" id="top">
+                <ul>
+                    <li class="current"><a href="#top">THAT'S LEARN!</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#homework">HOMEWORK</a></li>
+                    <li><a href="#link">LINKS</a></li>
+                    <li><a href="#contect">CONTECT</a></li>
+                </ul>
+            </nav>
+            <div class=headword>
+                <h1 class="hey">
+                    HEY!
+                </h1>
+                <p id="tpword">That’s discover and create something in the could!</p>
+            </div>
+        </div>
+    </header>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <h1 class="bigword">ABOUT</h1>
+            <div class="row">
+                <div class="col-2">
+                    <br>
+                </div>
+                <div class="col-4">
+                    <p class="aboutword">Hello and welcome to my website. This is a website about my learning process of HTML and CSS. There are some works I did for the homework and some really useful links for students who wants to learn codeing a website. Hope everyone here have fun and strat leaning with me! :) </p>
+                </div>
+                <div class="col-4">
+                    <p class="aboutword">你好，歡迎光臨我的網站。這個網站是關於我學習HTML與CSS的過程。在網站中包含了我學習時所做的作業與練習，也放了一些相當便利與有用的網站讓其他想學習寫出自己網站的人參考。希望大家能夠玩的開心，並與我一起學習。：）</p>
+                </div>
+                <div class="col-2">
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Homework-->
+    <div id="homework">
+        <div class="container">
+            <h1 class="bigword">HOMEWORK</h1>
+            <div class="row" id="hk">
+                <div class="col-4">
+                    <a href="homework1/homework1.html">
+                        <img src="images/hk01.png">
+                        <p>=Homework01 - 食記=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework2/homework2.html">
+                        <img src="images/hk02.png">
+                        <p>=Homework02 - 履歷=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework1-1/homework1-1.html">
+                        <img src="images/hk03.png">
+                        <p>=Homework03 - 食記美化=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework2-1/homework2-1.html">
+                        <img src="images/hk04.png">
+                        <p>=Homework04 - 履歷美化=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework3/homework3.html">
+                        <img src="images/hk05.png">
+                        <p>=Homework05 - 三欄式網頁=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework4/homework4.html">
+                        <img src="images/hk06.png">
+                        <p>=Homework06 - Freelancer=</p>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="homework4/homework4.html">
+                        <img src="images/hk06.png">
+                        <p>=Homework07 - Freelancer=</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--LINKS-->
+    <div id="link">
+        <div class="container">
+            <h1 class="bigword">LINKS</h1>
+            <div class="row" id="linkbt">
+                <div class="col-4">
+                    <h3><a href="http://fontawesome.io/icons/"><i class="fa fa-fort-awesome"></i> Font Awesome</a></h3>
+                    <p>很多線上小icon可以使用。</p>
+                </div>
+                <div class="col-4">
+                    <h3><a href="http://getbootstrap.com/"><i class="fa fa-bold"></i> Bootstrap</a></h3>
+                    <p>擁有很多美觀的板膜可以使用。</p>
+                </div>
+                <div class="col-4">
+                    <h3><a href="http://www.w3schools.com"><i class="fa fa-graduation-cap"></i>W3C School</a></h3>
+                    <p>任何網頁設計疑難雜症通通有解。</p>
+                </div>
+                <div class="col-4">
+                    <h3><a href="https://www.codecademy.com/"><i class="fa fa-code"></i> Codecademy</a></h3>
+                    <p>一步一步跟著學寫code!</p>
+                </div>
+                <div class="col-4">
+                    <h3><a href="http://flukeout.github.io/"><i class="fa fa-check-circle-o"></i> Flukeout</a></h3>
+                    <p>CSS位子練習。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contect-->
+    <div id="contect">
+        <div class="container">
+            <h1 class="contectme">CONTECT ME</h1>
+            <div class="mailme">
+                <p>Chien-I, Lu</p>
+                <a href="mailto:chieeni@gmail.com">chieeni@gmail.com</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

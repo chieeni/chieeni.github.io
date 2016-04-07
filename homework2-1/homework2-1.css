@@ -1,0 +1,34 @@
+body {
+    background-color: #FFD242;
+}
+
+.con {
+    margin: 0 auto;
+    width: 900px;
+    border: solid #FFC74C 10px;
+    background: white;
+    padding: 30px;
+    font-family: arial;
+}
+
+h1 {
+    color: #FFD242;
+    font-weight: bold;
+}
+
+#gd {
+    color: #B7CCD5;
+    padding-bottom: 40px;
+}
+
+h4 {
+    color: #747D85;
+}
+
+p {
+    color: #8C98A3;
+}
+
+li {
+    color: #8C98A3;
+}
